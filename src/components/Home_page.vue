@@ -1,41 +1,48 @@
 <template>
+    <!--Carousel-->
+  <v-container>
   <v-card class="mx-auto" elevation="24">
 
 <v-carousel hide-delimiters>
-    <v-carousel-item src="./public/bellhop-serving-coffee-cup-woman.jpg" cover> </v-carousel-item>
-    <v-carousel-item src="https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?ga=GA1.1.1687627901.1738318674&semt=ais_hybrid" cover> </v-carousel-item>
-    <v-carousel-item src="https://img.freepik.com/free-photo/bar-cafeteria-family-restaurant-interior-shooting_114579-1119.jpg?ga=GA1.1.1687627901.1738318674" cover> </v-carousel-item>
-    <v-carousel-item src="https://img.freepik.com/free-photo/restaurant-with-tables-chairs-outside_1127-2018.jpg?ga=GA1.1.1687627901.1738318674" cover> </v-carousel-item>
-    <v-carousel-item src="https://img.freepik.com/premium-photo/beautiful-african-american-woman-red-leather-costume-pose-restaurant_151355-7261.jpg?ga=GA1.1.1687627901.1738318674" cover> </v-carousel-item>
-    <v-carousel-item src="https://img.freepik.com/premium-photo/employees-restaurant-hotel-protective-masks-end-quarantine-restaurant-manager-his-staff-terrace-interaction-with-chef-restaurant_109285-10312.jpg?ga=GA1.1.1687627901.1738318674" cover> </v-carousel-item>
+    <v-carousel-item src="/bellhop-serving-coffee-cup-woman.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/chicken-kebab-with-vegetables-with-french-fries-table.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/pexels-heyho-6058325.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/pexels-rachel-claire-4577179.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/reserved-table-restaurant.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/young-african-american-waiter-man-hold-tray-with-burger-bar-restaurant.jpg" cover> </v-carousel-item>
 </v-carousel>
 
 </v-card>
-<v-container>
+</v-container>  
+<!--End of Midsection-->
+<!--Start of Lowersection-->
+<v-container><!--Outer Container-->
         <v-card class="mx-auto" elevation="24">
             <v-container>
             <v-row>
                 <v-col cols="12" md="4">
                     <v-card>
+                        <v-container>
                         <v-card color="#0D47A1">
                             <v-card-item>
-                                <v-card-title>New Menu</v-card-title>
+                                <v-card-title>New Wine Collection</v-card-title>
 
-                                <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                                <v-card-subtitle>Wine Night. Drink with the gods</v-card-subtitle>
                             </v-card-item>
-                            <v-img height="200px" src="https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=600" cover ></v-img>
+                            <v-img height="200px" src="pexels-brett-sayles-1374552.jpg" cover ></v-img>
 
                             <v-card-text>
                             New on the menu soft on the pallete easy on the pocket. Uplift your spirit with our new wine collection!
                             </v-card-text>
                         </v-card>
+                    </v-container>
                         <v-card color="#0D47A1">
                             <v-card-item>
-                            <v-card-title>New Menu</v-card-title>
+                            <v-card-title>Chinese Food</v-card-title>
 
-                            <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                            <v-card-subtitle>We now have Chinese Delicacies</v-card-subtitle>
                             </v-card-item>
-                            <v-img height="200px" src="https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&w=600" cover ></v-img>
+                            <v-img height="200px" src="/pexels-rohanmuzafar-3054690.jpg" cover ></v-img>
 
                             <v-card-text>
                             Exquisite taste from the best chef in the world!
@@ -47,25 +54,27 @@
 
                 <v-col cols="12" md="4">
                     <v-card>
+                    <v-container>   
                     <v-card color="#D50000">
                     <v-card-item>
-                    <v-card-title>Upcoming Events</v-card-title>
+                    <v-card-title>Valentines</v-card-title>
 
-                    <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                    <v-card-subtitle>For you and your loved ones</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://images.pexels.com/photos/30592865/pexels-photo-30592865/free-photo-of-elegant-restaurant-interior-with-festive-decor.jpeg?auto=compress&cs=tinysrgb&w=600" cover ></v-img>
+                    <v-img height="200px" src="/pexels-zeoxs-11661568.jpg" cover ></v-img>
 
                     <v-card-text>
-                    Love is in the air. Dine with us this valentines!
+                    Love is in the air. Have no plans! We got you. Dine with us this valentines!
                     </v-card-text>
                     </v-card>
+                </v-container> 
                     <v-card color="#FF6F00">
                     <v-card-item>
-                    <v-card-title>Upcoming Events</v-card-title>
+                    <v-card-title>Happy Halloween</v-card-title>
 
-                    <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                    <v-card-subtitle>Food that goes bump in the night!</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://images.pexels.com/photos/19533279/pexels-photo-19533279/free-photo-of-neon-text-in-bar.jpeg?auto=compress&cs=tinysrgb&w=600" cover ></v-img>
+                    <v-img height="200px" src="/pexels-capturedbyaugustine-19533279.jpg" cover ></v-img>
 
                     <v-card-text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
@@ -77,25 +86,28 @@
 
                 <v-col cols="12" md="4">
                     <v-card>
+                        <v-container>
                         <v-card color="#F57F17">
                     <v-card-item>
                     <v-card-title>Promotions</v-card-title>
 
-                    <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                    <v-card-subtitle>Happy Hour!</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://images.pexels.com/photos/965703/pexels-photo-965703.jpeg?auto=compress&cs=tinysrgb&w=600" cover ></v-img>
+                    <v-img height="200px" src="happyhour2.jpg" cover ></v-img>
 
                     <v-card-text>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
+                    BEI IMEANGUKA!
                     </v-card-text>
                         </v-card>
+                    </v-container>
+
                         <v-card color="yellow">
                     <v-card-item>
                     <v-card-title>Promotions</v-card-title>
 
                     <v-card-subtitle>This is a card subtitle</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://images.pexels.com/photos/9788991/pexels-photo-9788991.jpeg?auto=compress&cs=tinysrgb&w=600" cover ></v-img>
+                    <v-img height="200px" src="/pexels-zahid-9788991" cover ></v-img>
 
                     <v-card-text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
@@ -108,6 +120,48 @@
         </v-container>
         </v-card>
     </v-container>
+    <!---->
+    <v-container>
+        <v-card class="mx-auto" elevation="24" color = "purple">
+            <v-container>
+                <v-row >
+                    <v-col cols="12" md="4">
+                        <v-card>
+                            <v-card-item>
+                                <v-card-title>Contact Us</v-card-title>
+                            </v-card-item>
+                            <v-card-text><v-icon icon="mdi-phone" /> 0115291496</v-card-text>
+                            <v-card-text><v-icon icon="mdi-email" /> myrestaurant@example.com</v-card-text>
+                            <v-card-text>Operating Hours: 10.00am - 10.00pm</v-card-text>
+                        </v-card>
+                    </v-col>
+
+                        <v-col cols="12" md="4">
+                        <v-card>
+                            <v-card-item>
+                            <v-card-title>Find us on our socials</v-card-title>
+
+                            </v-card-item>
+                            <v-card-text><v-icon icon="mdi-instagram" /> myrestaurant</v-card-text>
+                            <v-card-text><v-icon icon="mdi-twitter" /> myrestaurant</v-card-text>
+                            <v-card-text><v-icon icon="mdi-facebook" /> myrestaurant</v-card-text>
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="4">
+                        <v-card>
+                            <v-card-item>
+                            <v-card-title>Our Restaurant Locations</v-card-title>
+                            </v-card-item>
+                            <v-card-text>Madaraka</v-card-text>
+                            <v-card-text>CBD</v-card-text>
+                            <v-card-text>Langata</v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-card>
+    </v-container>
+    
 </template>
 
 <script setup>
